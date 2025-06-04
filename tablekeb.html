@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-info" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><i class="fa-solid fa-table"></i> Tabel Kebutuhan Pengungsi</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="https://bpbd.jogjaprov.go.id/" target="_blank">Link</a>
+                    </li> -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Menu
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="table.html">Tabel</a></li>
+                            <li><a class="dropdown-item" href="#">Grafik</a></li>
+                            <li><a class="dropdown-item" href="#">Tabel Kebutuhan</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="form.html">Formulir</a></li>
+                        </ul>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="container">
+        <div class="card mt-3">
+            <div class="card-header">
+                <h4>Kebutuhan Posko A</h4>
+            </div>
+            <div class="card-body">
+                <table class="table table-bordered table-striped text-center">
+                    <tr>
+                        <th>No</th>
+                        <th>Jumlah Pengungsi</th>
+                        <th>Kategori</th>
+                        <th>Kebutuhan Gizi</th>
+                        <th>Jumlah Bahan Baku Yang Diperlukan</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>30 Orang</td>
+                        <td>Dewasa Normal</td>
+                        <td>E = 60.000 kkal
+                            <br>P = 2.250 gram
+                        </td>
+                        <td>Beras = 20 kg
+                            <br> Telur = 18 kg
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>20 Orang</td>
+                        <td>Lansia</td>
+                        <td>E = 30.000 kkal
+                            <br>P = 1.800 gram
+                        </td>
+                        <td>Beras = 18 kg
+                            <br> Telur = 15 kg
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Total</th>
+                        <th>50 orang</th>
+                        <th></th>
+                        <th>E = 90.000 kkal
+                            <br>P = 4.050 gram
+                        </th>
+                        <th>Beras = 38 kg
+                            <br> Telur = 33 kg
+                        </th>
+                    </tr>
+                </table>
+            </div>
+            <div class="card mt-5">
+                <div class="card-header">
+                    <h4>Stok Bahan Baku</h4>
+                </div>
+            </div>
+            <div class="card-body">
+                <table class="table table-bordered table-striped text-center">
+                    <tr>
+                        <th>Beras</th>
+                        <td>100 kg</td>
+                    </tr>
+                    <tr>
+                        <th>Telur</th>
+                        <td>50 kg</td>
+                    </tr>
+                    <tr>
+                        <th>Ikan</th>
+                        <td>30 kg</td>
+                    </tr>
+                    <tr>
+                        <th>Sayur A</th>
+                        <td>46 kg</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
