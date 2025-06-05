@@ -59,18 +59,20 @@
                         <label for="nama" class="form-label">Nama</label>
                         <input type="text" class="form-control" id="nama" placeholder="Input Nama">
                     </div>
-                    <div class="mb-3">
-                        <label for="kategori" class="form-label">Kategori (ex: Dewasa, remaja, balita, bumil,
-                            busui)</label>
-                        <input type="text" class="form-control" id="kategori" placeholder="Input Kategori Pengungsi">
-                    </div>
+
                     <div class="mb-3">
                         <label for="alamat" class="form-label">Alamat</label>
-                        <textarea class="form-control" id="alamat" rows="3" placeholder="Input Alamat Pengungsi"></textarea>
+                        <textarea class="form-control" id="alamat" rows="3"
+                            placeholder="Input Alamat Pengungsi"></textarea>
                     </div>
                     <div class="mb-3">
                         <label for="tanggallahir" class="form-label">Tanggal Lahir</label>
                         <input type="date" class="form-control" id="tanggallahir">
+                    </div>
+                    <div class="mb-3">
+                        <label for="kategori" class="form-label">Kategori (ex: Dewasa, remaja, balita, bumil,
+                            busui)</label>
+                        <input type="text" class="form-control" id="kategori" placeholder="Input Kategori Pengungsi">
                     </div>
                     <div class="mb-3">
                         <label for="jeniskelamin" class="form-label">Jenis Kelamin</label>
@@ -88,6 +90,44 @@
                                 Perempuan
                             </label>
                         </div>
+                    </div>
+                    <label for="kerentanan" class="form-label">Apakah memiliki kerentanan?</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault3">
+                        <label class="form-check-label" for="radioDefault3">
+                            Ya
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault4" checked>
+                        <label class="form-check-label" for="radioDefault4">
+                            Tidak
+                        </label>
+                    </div>
+                    <label for="jeniskerentanan" class="form-label">Jenis kerentanan apa yang dialami?</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault5">
+                        <label class="form-check-label" for="radioDefault5">
+                            Kesehatan Mental
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault6" checked>
+                        <label class="form-check-label" for="radioDefault6">
+                            Disabilitas
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault7" checked>
+                        <label class="form-check-label" for="radioDefault7">
+                            Sakit (demam, diare, gangguan lambung)
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault8" checked>
+                        <label class="form-check-label" for="radioDefault8">
+                            Lain-lain
+                        </label>
                     </div>
                     <br>
                     <hr>
