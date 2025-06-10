@@ -54,10 +54,10 @@
     <main class="container">
         <div class="card mt-3">
             <div class="card-header">
-                <h4>Grafik</h4>
+                <h4>Grafik Jumlah Pengungsi</h4>
             </div>
             <div class="card-body">
-                <div id="chart-keluhan-kesehatan">
+                <div id="chart-jumlah-pengungsi">
                 </div>
             </div>
         </div>
@@ -92,9 +92,9 @@
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
     <script>
         //chart keluhan kesehatan
-        var keluhanKesehatanoptions = {
+        var jumlahpengungsioption = {
             series: [{
-                name: 'Keluhan Kesehatan',
+                name: 'Jumlah Pengungsi',
                 data: [31.96, 30.97, 22.91, 22.71, 31.65]
             }],
             chart: {
@@ -118,9 +118,9 @@
                 colors: ['transparent']
             },
             xaxis: {
-                categories: ['Kulon Progo', 'Bantul', 'Gunung Kidul', 'Sleman', 'Kota Yogyakarta'],
+                categories: ['Posko A', 'Posko B', 'Posko C', 'Posko D', 'Posko E'],
                 title: {
-                    text: 'Kabupaten/Kota'
+                    text: 'Posko'
                 }
             },
             yaxis: {
@@ -140,7 +140,7 @@
                 }
             }
         };
-        var keluhanKesehatanchart = new ApexCharts(document.querySelector("#chart-keluhan-kesehatan"), keluhanKesehatanoptions);
+        var keluhanKesehatanchart = new ApexCharts(document.querySelector("#chart-jumlah-pengungsi"), jumlahpengungsioption);
         keluhanKesehatanchart.render();
 
         //chart jaminan kesehatan
